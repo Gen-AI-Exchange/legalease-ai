@@ -88,7 +88,7 @@ class ChecklistResponse(BaseModel):
 
 # --- LangChain & AI Setup ---
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash-lite",
+    model="gemini-2.0-flash",
     api_key=os.getenv("GEMINI_API_KEY"),
     temperature=0.1
 )
